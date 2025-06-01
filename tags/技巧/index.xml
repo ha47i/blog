@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>技巧 on IceLiuli的博客</title>
-        <link>https://example.com/tags/%E6%8A%80%E5%B7%A7/</link>
+        <link>https://ha47i.github.io/blog/tags/%E6%8A%80%E5%B7%A7/</link>
         <description>Recent content in 技巧 on IceLiuli的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>IceLiuli</copyright>
-        <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ha47i.github.io/blog/tags/%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于窗口移动的边框</title>
-        <link>https://example.com/p/%E5%85%B3%E4%BA%8E%E7%AA%97%E5%8F%A3%E7%A7%BB%E5%8A%A8%E7%9A%84%E8%BE%B9%E6%A1%86/</link>
+        <link>https://ha47i.github.io/blog/p/%E5%85%B3%E4%BA%8E%E7%AA%97%E5%8F%A3%E7%A7%BB%E5%8A%A8%E7%9A%84%E8%BE%B9%E6%A1%86/</link>
         <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/%E5%85%B3%E4%BA%8E%E7%AA%97%E5%8F%A3%E7%A7%BB%E5%8A%A8%E7%9A%84%E8%BE%B9%E6%A1%86/</guid>
+        <guid>https://ha47i.github.io/blog/p/%E5%85%B3%E4%BA%8E%E7%AA%97%E5%8F%A3%E7%A7%BB%E5%8A%A8%E7%9A%84%E8%BE%B9%E6%A1%86/</guid>
         <description>&lt;p&gt;在Windows系统中，窗口移动时的默认行为是实时显示边框和内容（即整个窗口一起移动）。但如果遇到的是某些情况下只有边框移动（如远程桌面或某些特殊主题），可以通过以下方法调整：&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;方法1关闭调整拖动时显示窗口内容&#34;&gt;&lt;strong&gt;方法1：关闭/调整“拖动时显示窗口内容”&lt;/strong&gt;

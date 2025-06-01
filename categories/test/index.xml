@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Test on IceLiuli的博客</title>
-        <link>https://example.com/categories/test/</link>
+        <link>https://ha47i.github.io/blog/categories/test/</link>
         <description>Recent content in Test on IceLiuli的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>IceLiuli</copyright><atom:link href="https://example.com/categories/test/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>IceLiuli</copyright><atom:link href="https://ha47i.github.io/blog/categories/test/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

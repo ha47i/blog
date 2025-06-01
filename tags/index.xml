@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on IceLiuli的博客</title>
-        <link>https://example.com/tags/</link>
+        <link>https://ha47i.github.io/blog/tags/</link>
         <description>Recent content in Tags on IceLiuli的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>IceLiuli</copyright>
-        <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ha47i.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Windows</title>
-        <link>https://example.com/tags/windows/</link>
+        <link>https://ha47i.github.io/blog/tags/windows/</link>
         <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/windows/</guid>
+        <guid>https://ha47i.github.io/blog/tags/windows/</guid>
         <description></description>
         </item>
         <item>
         <title>Windows小技巧</title>
-        <link>https://example.com/tags/windows%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
+        <link>https://ha47i.github.io/blog/tags/windows%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
         <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/windows%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
+        <guid>https://ha47i.github.io/blog/tags/windows%E5%B0%8F%E6%8A%80%E5%B7%A7/</guid>
         <description></description>
         </item>
         <item>
         <title>技巧</title>
-        <link>https://example.com/tags/%E6%8A%80%E5%B7%A7/</link>
+        <link>https://ha47i.github.io/blog/tags/%E6%8A%80%E5%B7%A7/</link>
         <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/%E6%8A%80%E5%B7%A7/</guid>
+        <guid>https://ha47i.github.io/blog/tags/%E6%8A%80%E5%B7%A7/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>https://example.com/tags/markdown/</link>
+        <link>https://ha47i.github.io/blog/tags/markdown/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/markdown/</guid>
+        <guid>https://ha47i.github.io/blog/tags/markdown/</guid>
         <description></description>
         </item>
         <item>
         <title>基础</title>
-        <link>https://example.com/tags/%E5%9F%BA%E7%A1%80/</link>
+        <link>https://ha47i.github.io/blog/tags/%E5%9F%BA%E7%A1%80/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/%E5%9F%BA%E7%A1%80/</guid>
+        <guid>https://ha47i.github.io/blog/tags/%E5%9F%BA%E7%A1%80/</guid>
         <description></description>
         </item>
         <item>
         <title>教程</title>
-        <link>https://example.com/tags/%E6%95%99%E7%A8%8B/</link>
+        <link>https://ha47i.github.io/blog/tags/%E6%95%99%E7%A8%8B/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/%E6%95%99%E7%A8%8B/</guid>
+        <guid>https://ha47i.github.io/blog/tags/%E6%95%99%E7%A8%8B/</guid>
         <description></description>
         </item>
         <item>
         <title>进阶</title>
-        <link>https://example.com/tags/%E8%BF%9B%E9%98%B6/</link>
+        <link>https://ha47i.github.io/blog/tags/%E8%BF%9B%E9%98%B6/</link>
         <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/%E8%BF%9B%E9%98%B6/</guid>
+        <guid>https://ha47i.github.io/blog/tags/%E8%BF%9B%E9%98%B6/</guid>
         <description></description>
         </item>
         <item>
         <title>初始文章</title>
-        <link>https://example.com/tags/%E5%88%9D%E5%A7%8B%E6%96%87%E7%AB%A0/</link>
+        <link>https://ha47i.github.io/blog/tags/%E5%88%9D%E5%A7%8B%E6%96%87%E7%AB%A0/</link>
         <pubDate>Sun, 01 Jan 1978 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/tags/%E5%88%9D%E5%A7%8B%E6%96%87%E7%AB%A0/</guid>
+        <guid>https://ha47i.github.io/blog/tags/%E5%88%9D%E5%A7%8B%E6%96%87%E7%AB%A0/</guid>
         <description></description>
         </item>
         

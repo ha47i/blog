@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on IceLiuli的博客</title>
-        <link>https://example.com/page/</link>
+        <link>https://ha47i.github.io/blog/page/</link>
         <description>Recent content in Pages on IceLiuli的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>IceLiuli</copyright>
-        <lastBuildDate>Sun, 31 Aug 2025 13:18:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 31 Aug 2025 13:18:00 +0000</lastBuildDate><atom:link href="https://ha47i.github.io/blog/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于我</title>
-        <link>https://example.com/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
+        <link>https://ha47i.github.io/blog/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
         <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <guid>https://ha47i.github.io/blog/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
         <description>&lt;p&gt;欸、欸欸。是专门来认识IceLiuli的嘛……&lt;/p&gt;
 &lt;p&gt;(好…好难为情)&lt;/p&gt;
 &lt;p&gt;真不巧，他这会儿好像溜去不知道干啥啦，那就由我来简单唠唠吧~&lt;/p&gt;
@@ -29,18 +29,18 @@
         </item>
         <item>
         <title>归档</title>
-        <link>https://example.com/archives/</link>
+        <link>https://ha47i.github.io/blog/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://ha47i.github.io/blog/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>附件中心</title>
-        <link>https://example.com/%E9%99%84%E4%BB%B6%E4%B8%AD%E5%BF%83/</link>
+        <link>https://ha47i.github.io/blog/%E9%99%84%E4%BB%B6%E4%B8%AD%E5%BF%83/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E9%99%84%E4%BB%B6%E4%B8%AD%E5%BF%83/</guid>
+        <guid>https://ha47i.github.io/blog/%E9%99%84%E4%BB%B6%E4%B8%AD%E5%BF%83/</guid>
         <description>&lt;p&gt;关于附件拿取页面，我在我的个人主页里写过了。&lt;/p&gt;
 &lt;p&gt;我不想再为博客适配一份有点屎山的代码了。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://liuli.ct.ws/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -51,18 +51,18 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>https://example.com/search/</link>
+        <link>https://ha47i.github.io/blog/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://ha47i.github.io/blog/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友情链接</title>
-        <link>https://example.com/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+        <link>https://ha47i.github.io/blog/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
+        <guid>https://ha47i.github.io/blog/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
         <description>&lt;p&gt;本站使用的工具都在这里啦。&lt;/p&gt;
 </description>
         </item>
