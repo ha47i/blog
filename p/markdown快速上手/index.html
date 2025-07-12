@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="A brief guide to setup KaTeX">
-<title>Math Typesetting</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="快速上手并使用Markdown书写">
+<title>Markdown快速上手</title>
 
-<link rel='canonical' href='https://ha47i.github.io/blog/p/math-typesetting/'>
+<link rel='canonical' href='https://ha47i.github.io/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/'>
 
-<link rel="stylesheet" href="/blog/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="Math Typesetting">
-<meta property='og:description' content="A brief guide to setup KaTeX">
-<meta property='og:url' content='https://ha47i.github.io/blog/p/math-typesetting/'>
+<link rel="stylesheet" href="/blog/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="Markdown快速上手">
+<meta property='og:description' content="快速上手并使用Markdown书写">
+<meta property='og:url' content='https://ha47i.github.io/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/'>
 <meta property='og:site_name' content='IceLiuli的博客'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='初始文章' /><meta property='article:tag' content='教程' /><meta property='article:published_time' content='1978-01-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='1978-01-01T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="Math Typesetting">
-<meta name="twitter:description" content="A brief guide to setup KaTeX">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Markdown' /><meta property='article:tag' content='教程' /><meta property='article:tag' content='笔记' /><meta property='article:published_time' content='2025-07-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-07-12T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Markdown快速上手">
+<meta name="twitter:description" content="快速上手并使用Markdown书写">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -293,12 +293,26 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li>
+    <li><a href="#标题子标题">标题、子标题</a></li>
+    <li><a href="#文本样式">文本样式</a></li>
+    <li><a href="#链接">链接</a></li>
+    <li><a href="#换行">换行</a></li>
+    <li><a href="#引用">引用</a>
       <ol>
-        <li><a href="#examples">Examples</a></li>
+        <li><a href="#代码块">代码块</a></li>
       </ol>
     </li>
-    <li><a href="#test">Test</a></li>
+    <li><a href="#分割线">分割线</a></li>
+    <li><a href="#列表">列表</a>
+      <ol>
+        <li><a href="#无序">无序</a></li>
+        <li><a href="#有序">有序</a></li>
+        <li><a href="#任务">任务</a></li>
+      </ol>
+    </li>
+    <li><a href="#表格">表格</a></li>
+    <li><a href="#图片">图片</a></li>
+    <li><a href="#转译">转译</a></li>
   </ol>
 </nav>
         </div>
@@ -317,10 +331,6 @@
     
     <header class="article-category">
         
-            <a href="/blog/categories/%E5%88%9D%E5%A7%8B%E6%96%87%E7%AB%A0/" >
-                初始文章
-            </a>
-        
             <a href="/blog/categories/%E6%95%99%E7%A8%8B/" >
                 教程
             </a>
@@ -330,12 +340,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/blog/p/math-typesetting/">Math Typesetting</a>
+            <a href="/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/">Markdown快速上手</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            A brief guide to setup KaTeX
+            快速上手并使用Markdown书写
         </h3>
         
     </div>
@@ -356,7 +366,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">1978‍- 01-01</time>
+                <time class="article-time--published">2025‍- 07-12</time>
             </div>
         
 
@@ -371,7 +381,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 1 分钟
+                    阅读时长: 2 分钟
                 </time>
             </div>
         
@@ -386,14 +396,190 @@
     <section class="article-content">
     
     
-    <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-<p>In this example we will be using <a class="link" href="https://katex.org/"  target="_blank" rel="noopener"
-    >KaTeX</a></p>
+    <h1 id="基础用法文档">基础用法文档
+</h1><p><a class="link" href="https://markdown.com.cn/basic-syntax/"  target="_blank" rel="noopener"
+    >Markdown基本语法</a></p>
+<h2 id="标题子标题">标题、子标题
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 基础用法文档
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">## 标题、子标题
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>#</code>数量为1-6，对应HTML的h1-h6。</p>
+<h2 id="文本样式">文本样式
+</h2><p><strong>粗体Text</strong>，<em>斜体Text iiii</em>，<em><strong>又粗又斜</strong></em>。</p>
+<p><del>删除</del>线，<u>下划</u>线。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">**粗体Text**，*斜体Text iiii*，***又粗又斜***。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">~~删除~~线，&lt;u&gt;下划&lt;/u&gt;线。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果以上用法用在整个段落或句子中，可将<code>*</code>替换为<code>_</code>。</p>
+<h2 id="链接">链接
+</h2><p><a class="link" href="https://github.com"  target="_blank" rel="noopener"
+    >链接文本</a></p>
+<p><a class="link" href="https://github.com"  target="_blank" rel="noopener"
+    >https://github.com</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[链接文本](https://github.com)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;https://github.com&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="换行">换行
+</h2><p>回车两次换一行。</p>
+<p>你也可以使用<code>见下</code>来换行。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">第一行&lt;br&gt;第二行
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="引用">引用
+</h2><blockquote>
+<p>引用是这样的</p>
+<p>多行时在换行符里也要加&quot;&gt;&quot;。</p>
+<blockquote>
+<p>也可以套娃。</p></blockquote>
+<blockquote>
 <ul>
-<li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a class="link" href="https://katex.org/docs/autorender.html"  target="_blank" rel="noopener"
-    >Auto-render Extension</a> or host these scripts locally.</li>
-<li>Include the partial in your templates like so:</li>
+<li>甚至是其他样式&hellip;</li>
+</ul></blockquote></blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&gt; 引用是这样的
+</span></span><span class="line"><span class="cl">&gt;
+</span></span><span class="line"><span class="cl">&gt; 多行时在换行符里也要加&#34;&gt;&#34;。
+</span></span><span class="line"><span class="cl">&gt;
+</span></span><span class="line"><span class="cl">&gt;&gt; 也可以套娃。
+</span></span><span class="line"><span class="cl">&gt;
+</span></span><span class="line"><span class="cl">&gt;&gt; - 甚至是其他样式...
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="代码块">代码块
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>text<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>```html</p>
+<p>&lt;body&gt;</p>
+<p>　　&lt;div&gt;text&lt;/div&gt;</p>
+<p>&lt;/body&gt;</p>
+<p>```</p>
+<h2 id="分割线">分割线
+</h2><hr>
+<p><code>---</code></p>
+<h2 id="列表">列表
+</h2><h3 id="无序">无序
+</h3><ul>
+<li>aaa
+<ul>
+<li>bbb
+<ul>
+<li>ccc
+<ul>
+<li>ddd</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">- aaa
+</span></span><span class="line"><span class="cl">	- bbb
+</span></span><span class="line"><span class="cl">		- ccc
+</span></span><span class="line"><span class="cl">			- ddd
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="有序">有序
+</h3><ol>
+<li>aaa
+<ol>
+<li>aaab</li>
+</ol>
+</li>
+<li>bbb
+<ol>
+<li>bbbb
+<ol>
+<li>bbbbb</li>
+</ol>
+</li>
+<li>bbbc</li>
+</ol>
+</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1. aaa
+</span></span><span class="line"><span class="cl">	1. aaab
+</span></span><span class="line"><span class="cl">2. bbb
+</span></span><span class="line"><span class="cl">	1. bbbb
+</span></span><span class="line"><span class="cl">		1. bbbbb
+</span></span><span class="line"><span class="cl">	2. bbbc
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="任务">任务
+</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 完成</li>
+<li><input disabled="" type="checkbox"> 未完成</li>
+<li><input disabled="" type="checkbox"> 暑假作业</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -402,30 +588,106 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">{{</span> <span class="k">if</span> or .Params.math .Site.Params.math <span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="o">{{</span> partial <span class="s2">&#34;math.html&#34;</span> . <span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="o">{{</span> end <span class="o">}}</span>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">- [x] 完成
+</span></span><span class="line"><span class="cl">- [ ] 未完成
+</span></span><span class="line"><span class="cl">- [ ] 暑假作业
 </span></span></code></pre></td></tr></table>
 </div>
-</div><ul>
-<li>To enable KaTeX globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
-<li>To enable KaTeX on a per page basis include the parameter <code>math: true</code> in content files</li>
-</ul>
-<p><strong>Note:</strong> Use the online reference of <a class="link" href="https://katex.org/docs/supported.html"  target="_blank" rel="noopener"
-    >Supported TeX Functions</a></p>
-
-<h3 id="examples">Examples
-</h3><p>Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$</p>
-<p>Block math:
-</p>
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$<h2 id="test">Test
-</h2><p>若系数行列式 \(D = \begin{vmatrix} a & b \\ d & e \end{vmatrix} = ae - bd \neq 0\)，则解为：<br>
-</p>
-\[
-x = \frac{\begin{vmatrix} c & b \\ f & e \end{vmatrix}}{D} = \frac{ce - bf}{ae - bd}, \quad y = \frac{\begin{vmatrix} a & c \\ d & f \end{vmatrix}}{D} = \frac{af - cd}{ae - bd}
-\]
+</div><h2 id="表格">表格
+</h2><p>稍许复杂，请看<a class="link" href="https://markdown.com.cn/extended-syntax/tables.html"  target="_blank" rel="noopener"
+    >这里</a>。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">表头A</th>
+          <th style="text-align: center">表头B</th>
+          <th style="text-align: right">表头C</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">・・・・・・</td>
+          <td style="text-align: center">・・・・・・</td>
+          <td style="text-align: right">・・・・</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">左对齐</td>
+          <td style="text-align: center">居中</td>
+          <td style="text-align: right">右对齐</td>
+      </tr>
+  </tbody>
+</table></div>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">| 表头A | 表头B | 表头C |
+</span></span><span class="line"><span class="cl">| :--- | :---: | ---: |
+</span></span><span class="line"><span class="cl">| ・・・・・・ | ・・・・・・ | ・・・・ |
+</span></span><span class="line"><span class="cl">| 左对齐 | 居中 | 右对齐 |
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="图片">图片
+</h2><p>第一张图片是带链接的。</p>
+<p><a class="link" href="https://github.com"  target="_blank" rel="noopener"
+    ><img src="/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/pic.png"
+	width="875"
+	height="1097"
+	srcset="/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/pic_hu_20b996abda95b469.png 480w, /blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/pic_hu_201fa10952b896db.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="79"
+		data-flex-basis="191px"
+	
+></a></p>
+<p><img src="/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/pic.png"
+	width="875"
+	height="1097"
+	srcset="/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/pic_hu_20b996abda95b469.png 480w, /blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/pic_hu_201fa10952b896db.png 1024w"
+	loading="lazy"
+	
+		alt="可以写描述"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="79"
+		data-flex-basis="191px"
+	
+></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[![](pic.png)](https://github.com)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">![可以写描述](pic.png)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="转译">转译
+</h2><p>在字符前加<code>\</code>可转译，连\自己也不放过。</p>
+<p>比如说，**粗体Text**，*斜体Text iiii*，***又粗又斜***。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">在字符前加`\`可转译，连\\自己也不放过。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">比如说，\*\*粗体Text\*\*，\*斜体Text iiii\*，\*\*\*又粗又斜\*\*\*。
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 </section>
 
 
@@ -433,41 +695,17 @@ x = \frac{\begin{vmatrix} c & b \\ f & e \end{vmatrix}}{D} = \frac{ce - bf}{ae -
     
     <section class="article-tags">
         
-            <a href="/blog/tags/%E5%88%9D%E5%A7%8B%E6%96%87%E7%AB%A0/">初始文章</a>
+            <a href="/blog/tags/markdown/">Markdown</a>
         
             <a href="/blog/tags/%E6%95%99%E7%A8%8B/">教程</a>
+        
+            <a href="/blog/tags/%E7%AC%94%E8%AE%B0/">笔记</a>
         
     </section>
 
 
     </footer>
 
-
-    
-        <link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
-            ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
-                defer
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
-                defer
-                >
-            </script><script>
-    window.addEventListener("DOMContentLoaded", () => {
-	const mainArticleElement = document.querySelector(".main-article");
-        renderMathInElement(mainArticleElement, {
-            delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "\\[", right: "\\]", display: true }
-            ],
-            ignoredClasses: ["gist"]
-        });})
-</script>
 
     
 </article>
@@ -480,43 +718,6 @@ x = \frac{\begin{vmatrix} c & b \\ f & e \end{vmatrix}}{D} = \frac{ce - bf}{ae -
     <h2 class="section-title">相关文章</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
-            
-                
-<article class="has-image">
-    <a href="/blog/p/markdown-syntax-guide/">
-        
-        
-            <div class="article-image">
-                <img src="/blog/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.c514d916917173a48a42e0114b469961_hu_12cb662251854034.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Markdown Syntax Guide"
-                        
-                        data-hash="md5-xRTZFpFxc6SKQuARS0aZYQ==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Markdown Syntax Guide</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/blog/p/markdown%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Markdown快速上手</h2>
-        </div>
-    </a>
-</article>
-
             
                 
 <article class="">
@@ -546,23 +747,36 @@ x = \frac{\begin{vmatrix} c & b \\ f & e \end{vmatrix}}{D} = \frac{ce - bf}{ae -
             
                 
 <article class="has-image">
-    <a href="/blog/p/emoji-support/">
+    <a href="/blog/p/markdown-syntax-guide/">
         
         
             <div class="article-image">
-                <img src="/blog/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.60116b1ccfc8632e9a65f7d51df3efc2_hu_c1cfd6b8275d624a.jpg" 
+                <img src="/blog/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.c514d916917173a48a42e0114b469961_hu_12cb662251854034.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Emoji Support"
+                        alt="Featured image of post Markdown Syntax Guide"
                         
-                        data-hash="md5-YBFrHM/IYy6aZffVHfPvwg==">
+                        data-hash="md5-xRTZFpFxc6SKQuARS0aZYQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Emoji Support</h2>
+            <h2 class="article-title">Markdown Syntax Guide</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/blog/p/math-typesetting/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Math Typesetting</h2>
         </div>
     </a>
 </article>
