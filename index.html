@@ -18,6 +18,19 @@
 
     </head>
     <body class="">
+
+<script>
+  (function() {
+    // 弹出确认框，标题和内容通过 \n 换行模拟（浏览器原生confirm仅支持文本）
+    var shouldGoNew = confirm('这个博客已过时，\n点击确定后前往新博客，点击取消继续考古旧博客。');
+    if (shouldGoNew) {
+      // 用户点击“确定” -> 立即跳转至新博客
+      window.location.replace('https://blog.luckyy.qzz.io/');
+    }
+    // 点击“取消”则什么也不做，继续停留在当前页面
+  })();
+</script>
+
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
